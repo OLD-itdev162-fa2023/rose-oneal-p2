@@ -4,7 +4,11 @@ import { EmployeesListComponent } from './components/employees/employees-list/em
 
 const routes: Routes = [
   {
-    path: '',
+    path: '', //this path would display the employees to the home page
+    component: EmployeesListComponent
+  },
+  {
+    path: 'employees',
     component: EmployeesListComponent
   }
 ];
