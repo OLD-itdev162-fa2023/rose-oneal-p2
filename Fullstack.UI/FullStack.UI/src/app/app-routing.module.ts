@@ -20,6 +20,10 @@ const routes: Routes = [
   {
     path: 'employees/edit/:id',
     component: EditEmployeeComponent
+  },
+  {
+    path: 'employees/delete/:id',
+    component: EditEmployeeComponent
   }
 ];
 
